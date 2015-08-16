@@ -1,34 +1,16 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
-author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+title: Arctic Fox
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Jekyll Theme Demo
+baseurl: "/arctic-fox-theme" # the subpath of your site, e.g. /blog/
+url: "http://diezcami.github.io" # the base hostname & protocol for your site
+twitter_username: username
+github_username: username
 
 # Build settings
-baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
-markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Custom variables
-version: "1.1.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
