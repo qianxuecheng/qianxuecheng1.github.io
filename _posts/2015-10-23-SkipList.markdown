@@ -1,0 +1,8 @@
+---
+layout: post
+---
+#SkipList
+#BST(Binary Search Tree)
+[SkipList](http://www.zhihu.com/question/27542473#answer-10223274)
+[](http://segmentfault.com/a/1190000003704860?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare)
+[](http://math.stackexchange.com/questions/183909/why-choose-a-prime-number-as-the-number-of-slots-for-hashing-function-that-uses)
